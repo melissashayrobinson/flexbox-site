@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: rgb(242, 244, 246);
+	font-family: proxima-soft, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(0, 33, 77);
+}
+
+header {
+	background-color: rgba(254, 199, 215, 1);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 84px;
+	display: flex;
+	align-items: center;
+	color: rgb(153, 79, 243);
+}
+
+.row {
+	width: 100%;
+	padding: 0 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+nav li {
+	display: inline;
+	padding: 1rem;
+}
+
+a:hover {
+	border-bottom: 2px solid rgb(0, 33, 77);
+	color: rgb(0, 33, 77);
+}
+
+.container {
+}
+
+.hero {
+	margin-top: 84px;
+	width: 100%;
+	height: calc(100vh - 84px);
+	background-image: url('../images/pineapple-supply-co-jRAIFF74LUE-unsplash.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 5rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1rem;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: .125rem;
+	margin-bottom: 1rem;
+}
+
+quote {
+	font-style: italic;
+	font-size: 3rem;
+	width: 70%;
+	text-align: center;
+}
+
+.jumbo {
+	width: 70%;
+	color: rgb(253, 226, 79);
+}
+
+.mission {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: rgb(153, 79, 243);
+}
+
+.products {
+	width: 100%;
+	min-height: calc(100vh - 84px);
+	padding: 3rem;
+	background-image: url('../images/confetti.jpg');
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+}
+
+.item {
+	width: 30%;
+	display: flex;
+	flex-flow: column;
+	padding: 2rem;
+	background-color: rgb(0, 235, 199);
+}
+
+.item img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 2rem;
+	margin-bottom: .5rem;
+}
+
+.about {
+	width: 100%;
+	min-height: calc(100vh - 84px);
+	padding: 3rem;
+	background-color: rgb(253, 226, 79);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.half {
+	width: 34%;
+	height: auto;
+	padding: 1rem;
+}
+
+.about img {
+	width: 100%;
+	height: auto;
+}
+
+p {
+	line-height: 1.75rem;
+}
+
+.reserve-now {
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0rem;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 5px 15px;
+	background-color: rgb(255, 84, 112);
+	border-radius: 15px;
+	width: 50%;
+	margin-top: 1rem;
+}
+.reserve-now a:hover {
+	border-bottom: 0px;
+	color: inherit;
+}
+
+footer {
+	width: 100%;
+	height: 200px;
+	padding-top: 2.5rem;
+	display: flex;
+	align-items: flex-start;
+	color: rgb(153, 79, 243);
+}
+
+footer .logo {
+	color: rgb(0, 33, 77);
+}
+
+footer nav {
+	color: rgb(0, 33, 77);
+}
